@@ -1,0 +1,51 @@
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/60e6309a-d8b3-42af-b1aa-1e4ff75afd70" />
+
+
+This Python GUI application makes it easy to convert complex 3D STL models, including those with chamfers and countersinks, into 2D heightmaps for precise laser engraving. It is a user-friendly tool that generates SVG files that are ready for laser cutting.
+🚀 Features
+
+STL to Heightmap: Converts an STL file into a grayscale PNG heightmap.
+
+Calibration: Includes a unique calibration feature that allows you to correct for non-linear depth output of your laser engraver.
+
+SVG Output: Generates a final SVG file with the embedded heightmap and optional red contour lines for cutting.
+
+User-Friendly Interface: An easy-to-use GUI for setting parameters like pixel density, engraving depth, and top Z-plane.
+
+Preview Functionality: Provides a preview of the generated heightmap with contour lines before saving.
+
+🔧 Installation & Usage
+
+This program was developed for Windows and does not require a separate Python installation, as it is provided as a standalone executable (.exe) file. Simply download the latest version from the releases section and run it directly to start the program.
+
+How to Use the Program
+To use the application, simply follow these steps:
+
+Start the Program: Double-click the 3D_Cut_Lab.exe file that you downloaded from the releases page.
+
+Load your STL File: Click the "Open STL File" button and select the STL model you want to process.
+
+Calibrate Maximum Depth (Highly Recommended): This is a critical step for accurate results. To find the correct value for your laser, enter the value of your deepest feature (e.g., a chamfer of 0.8 mm) into the "Max Depth" field. Then, click "Create Max Depth Calibration SVG". It is essential that the test rectangle from the generated SVG is cut on the exact same material as your final workpiece. Repeat this process until you reach the desired depth of your deepest feature. The more accurate this value, the more precise your result will be.
+
+Adjust Settings: Use the sliders and input fields to set the desired laser depth and other parameters for your project.
+
+Pixel Density: It is highly recommended to set the pixel density to 10. A higher value results in a more detailed heightmap and more accurate cutting paths.
+
+Top Z Plane: This value will be filled in automatically based on your "Max Depth" calibration.
+
+Pro Setting: Calibration Points (Optional): After you have performed the Max Depth calibration, you can use additional calibration points to improve precision across the entire depth range. This helps to correct for non-linear cutting behavior of your laser, where the actual depth might not perfectly match the target depth. You can add these points as a list of (Target Depth, Actual Depth) values.
+
+Generate the SVG: Click the "Generate SVG" button to start the conversion process. The application will create one or more SVG files that can be used for laser cutting. The process can take some time depending on the model size and pixel density. For example, a 20x20 mm square with a pixel density of 10 should take less than a minute.
+
+Import and Laser: Import the generated SVG files into your laser software. Only import the SVG file; the other files are only needed for the creation process. Use the cutting values that you determined during the Max Depth calibration to raster the image. For cutting the outer paths, you can use your standard cutting values.
+
+Find the Output: The final SVG files will be saved in the same directory as your original STL file.
+
+Known Issues
+Slight Path Offset: The generated paths may have a minimal offset. This offset is reduced as the pixel density is increased.
+
+Special Characters: Be aware that the program may encounter issues with file or path names containing special characters like German umlauts (ä, ö, ü).
+
+A Note from the Developer
+Hello, I'm the developer of this tool. I have very little experience programming in Python, and most of the code was created with the help of AI. This is also my first time using GitHub, and I developed this tool for research and testing purposes. I hope it's useful for you too. HAVE FUN ! 
+
