@@ -1,5 +1,5 @@
 
-<img width="256" height="256" alt="3D_Cut_Lab_Logo" src="https://github.com/user-attachments/assets/23d6c8eb-096c-4c40-a864-e8d14e0b17da" />
+<img width="256" height="256" alt="3D_Cut_Lab_Logo" src="https://github.com/user-attachments/assets/4ee91058-e413-4276-8c0b-56782a7dcbd0" />
 
 This Python GUI application makes it easy to convert complex 3D STL models, including those with chamfers and countersinks, into 2D heightmaps for precise laser engraving. It is a user-friendly tool that generates SVG files that are ready for laser cutting.
 🚀 Features
