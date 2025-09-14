@@ -27,7 +27,7 @@ Preview Functionality: Provides a preview of the generated heightmap with contou
 
 🔧 Installation & Usage
 
-<img width="599/2" height="751/2" alt="image" src="https://github.com/user-attachments/assets/d6c36527-6b25-47cd-ad0f-b42d3be05099" />
+<img width="599/4" height="751/4" alt="image" src="https://github.com/user-attachments/assets/d6c36527-6b25-47cd-ad0f-b42d3be05099" />
 
 
 This program was developed for Windows and does not require a separate Python installation, as it is provided as a standalone executable (.exe) file. Simply download the latest version from the releases section and run it directly to start the program.
