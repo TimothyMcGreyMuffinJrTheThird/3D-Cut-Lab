@@ -10,27 +10,65 @@
 <img width="256" height="256" alt="IMG_00772" src="https://github.com/user-attachments/assets/ccf72ea4-89ba-48c7-9519-bc9654379479" />
 <br> 
 <br> 
-This Python GUI application makes it easy to convert complex 3D STL models, including those with chamfers and countersinks, into 2D heightmaps for precise laser engraving. It is a user-friendly tool that generates SVG files that are ready for laser cutting.
-🚀 Features
+This Python GUI application makes it easy to **convert complex 3D STL models, including those with chamfers and countersinks, into 2D heightmaps for precise laser engraving.** It is a user-friendly tool that generates SVG files that are ready for laser cutting.
+<br>
 
-STL to Heightmap: Converts an STL file into a grayscale PNG heightmap.
+Features
+---
+<br>
 
-Calibration: Includes a unique calibration feature that allows you to correct for non-linear depth output of your laser engraver.
+**STL to Heightmap:** Converts an STL file into a grayscale PNG heightmap.
 
-SVG Output: Generates a final SVG file with the embedded heightmap and optional red contour lines for cutting.
+**Calibration:** Includes a unique calibration feature that allows you to correct for non-linear depth output of your laser engraver.
 
-User-Friendly Interface: An easy-to-use GUI for setting parameters like pixel density, engraving depth, and top Z-plane.
+**SVG Output:** Generates a final SVG file with the embedded heightmap and optional red contour lines for cutting.
 
-Preview Functionality: Provides a preview of the generated heightmap with contour lines before saving.
+**User-Friendly Interface:** An easy-to-use GUI for setting parameters like pixel density, engraving depth, and top Z-plane.
+
+**Preview Functionality:** Provides a preview of the generated heightmap with contour lines before saving.
 
 Installation
 ---
 
-This program was developed for Windows and does not require a separate Python installation, as it is provided as a standalone executable (.exe) file. Simply download the latest version from the releases section (on the right side)  and run it directly to start the program.
+This program was developed for **Windows** and does not require a separate Python installation, as it is provided as a standalone executable (.exe) file. Simply **download the latest version from the releases section (on the right side)**  and run it directly to start the program.
+
+<br> 
+
+How to Use the Test files  (the program is not needed)
+---
+**Choose a Test:**
+Select either Test1 (the round part with a star) or Test2 (the square with holes).
+
+**Download the Files:**
+Download the Max Depth calibration test and the SVG file for your chosen test.
+
+**Run the Calibration Test:**
+
+Load the Max Depth calibration test into your laser program.
+
+Run as many passes as needed to achieve the required depth.
+
+Note down the cutting values (power and speed) and amount of passes.
+<br> 
+
+<img width="210" height="250" alt="Test_1_MaxDepthCalibration" src="https://github.com/user-attachments/assets/efc54547-a208-4432-b4e2-09219bee1996" />
+
+<img width="256" height="256" alt="qweqwe" src="https://github.com/user-attachments/assets/76c4c9b0-ebb1-487a-a50d-ec8ea187b32e" />
+<br> 
+<br> 
+
+**Engrave the Test File:**
+
+Load the SVG file of your chosen test into the program.
+
+Apply the same cutting values you just noted to the image.
+
+For the final cutout (red pathes), you can use the cutting values you normally use for similar materials.
+<br> 
 
 
 
-How to Use the Program
+How to Use the Program (Full Guide) 
 ---
 
 <img width="299,5" height="375,5" alt="image" src="https://github.com/user-attachments/assets/d6c36527-6b25-47cd-ad0f-b42d3be05099" />
@@ -49,7 +87,7 @@ How to Use the Program
 <img width="256" height="256" alt="qweqwe" src="https://github.com/user-attachments/assets/76c4c9b0-ebb1-487a-a50d-ec8ea187b32e" />
 <br> 
 <br> 
-3. Pixel Density: It is highly recommended to set the pixel density to 10. A higher value results in a more detailed heightmap and more accurate cutting paths. Here the comparison pixel density 2 vs 10: <br> 
+3. Pixel Density: It is highly recommended to set the pixel density to **10**. A higher value results in a more detailed heightmap and more accurate cutting paths. Here the comparison pixel density 2 vs 10: <br> 
 <br> 
 
 <img width="190" height="199,5" alt="3_engraving2" src="https://github.com/user-attachments/assets/803f2819-11fe-4116-a2eb-002ce4f48c67" />
@@ -73,12 +111,12 @@ Pro Setting: Calibration Points (Optional): After you have performed the Max Dep
 <br> 
 Known Issues
 ---
-Slight Path Offset: The generated paths may have a minimal offset. This offset is reduced as the pixel density is increased.<br> 
+**Slight Path Offset:** The generated paths may have a minimal offset. This offset is reduced as the pixel density is increased.<br> 
 <br> 
 <img width="225" height="350" alt="image" src="https://github.com/user-attachments/assets/469978e8-b7bc-4b90-b7f6-e28ddf393ee1" />
 <br> 
 <br> 
-Special Characters: Be aware that the program may encounter issues with file or path names containing special characters like German umlauts (ä, ö, ü).
+**Special Characters:** Be aware that the program may encounter issues with file or path names containing special characters like German umlauts (ä, ö, ü).
 
 A Note from the Developer
 ---
