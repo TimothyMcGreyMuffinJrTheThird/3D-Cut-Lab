@@ -34,7 +34,7 @@ This program was developed for **Windows** and does not require a separate Pytho
 
 <br> 
 
-How to Use the Test files  (the program is not needed)
+How to use the Test files  (the program is not needed)
 ---
 **Choose a Test:**
 Select either Test1 (the round part with a star) or Test2 (the square with holes).
@@ -68,7 +68,7 @@ For the final cutout (red pathes), you can use the cutting values you normally u
 
 
 
-How to Use the Program (Full Guide) 
+How to use the Program (Full Guide) 
 ---
 
 <img width="299,5" height="375,5" alt="image" src="https://github.com/user-attachments/assets/d6c36527-6b25-47cd-ad0f-b42d3be05099" />
