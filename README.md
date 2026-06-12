@@ -13,6 +13,8 @@
 This Python GUI application makes it easy to **convert complex 3D STL models, including those with chamfers and countersinks, into 2D heightmaps for precise laser engraving.** It is a user-friendly tool that generates SVG files that are ready for laser cutting.
 <br>
 
+[![Installation and Features](https://img.youtube.com/vi/7w8lVgWGwfI/0.jpg)](https://www.youtube.com/watch?v=7w8lVgWGwfI)
+
 Features
 ---
 <br>
